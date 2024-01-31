@@ -1,0 +1,62 @@
+.calculator {
+  border: 2px solid white;
+  max-width: 300px;
+  margin: 150px auto;
+  padding: 20px;
+  height: auto;
+  background: #232323; /* Dark background color */
+  border-radius: 10px;
+  color: #fff; /* Text color */
+}
+
+.display {
+  font-size: 24px;
+  background: #444; /* Darker background color for the display */
+  border: 1px solid #777; /* Darker border color */
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  color:rgb(128, 128, 128);
+}
+
+button {
+  padding: 15px;
+  font-size: 18px;
+  border: black;
+  border-radius: 5px;
+  background: #555; /* Darker button background color */
+  color: #fff; /* Button text color */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #7d5dc3; /* Darker background color on hover */
+  border:2px black;
+}
+
+.operator:hover
+{
+  background-color: aquamarine;
+  border: 2px  black;
+}
+
+.clear,
+.calculate {
+  grid-column: span 2;
+}
+
+/* Styling for the backspace button */
+.backspace {
+  background: #777; /* Darker backspace button background color */
+}
+
+body{
+  background-color:  rgb(43, 36, 36);
+}
