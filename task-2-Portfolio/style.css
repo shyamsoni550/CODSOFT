@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(0, 0, 46);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+  background-color: rgb(20, 37, 84);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li :hover {
+  color: rgb(111, 111, 193);
+  font-size: 1.01rem;
+}
+
+.left {
+  font-style: 1.5 rem;
+  font-weight: bold;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  /* margin: 100px 0px;  */
+  margin-top: 100px;
+  margin-bottom: -80px;
+}
+
+.firstsection>div {
+  width: 30%;
+}
+
+.leftsection {
+  font-size: 3rem;
+}
+.leftsection .button{
+  padding: 20px;
+}
+.leftsection .btn {
+  padding: 12px;
+  background: #201f43;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: all 0.6s ease;
+  border-radius: 6px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.btn:hover
+{
+  background-color:rgb(105, 194, 202);
+}
+.rightsection img {
+  width: 100%;
+  height: auto;
+}
+
+.purple {
+  color: rgb(177, 128, 224);
+}
+
+#element {
+  color: rgb(177, 128, 224);
+}
+
+.secondsection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+
+main hr {
+  border: 0;
+  background: #9c97f1;
+  height: 1.2px;
+  margin: 50px 85px;
+}
+
+.secondsection h1 {
+  font-size: 1.9rem;
+
+}
+
+.text-grey {
+  color: grey;
+}
+
+.secondsection .box {
+  background: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0px;
+  display: flex;
+  /* display: flex; */
+
+}
+
+.secondsection .vertical {
+  height: 90px;
+  width: 1px;
+  background: white;
+  margin: 0 100px;
+}
+
+.image-top {
+  width: 200px;
+  position: relative;
+  height: 200px;
+  top: -32px;
+  left: -9px;
+}
+
+.vertical-title {
+  position: relative;
+  top: -5px;
+  width: 180px;
+  display: grid;
+  /* display: flex; */
+}
+
+.vertical-disc {
+  top: -10px;
+  color: grey;
+  width: 150px;
+  font-size: 12px;
+  display: grid;
+  /* display: flex; */
+}
+footer
+{
+  background-color: #201f43;
+  /* height: 250px; */
+}
+.footer
+{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 50px;
+}
+footer .footersecond
+{
+  text-align: left;
+}
+   .footer ul
+   {
+    list-style: none;
+   }
+   .secondsection >div
+   {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   }
+   .footer >div
+   {
+    width: 223px;
+   }
+   footer .footer-right
+   {
+    text-align: center;
+    color: grey;
+    padding: 12px 0;
+   }
+
+   .thirdsection {
+    padding: 50px 0;
+    background-color: rgb(0, 0, 46);
+  }
+  
+  .thirdsection h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #7ec7d2;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .skills-list li {
+    display: inline-block;
+    justify-content: center;
+    margin: 0 10px;
+    padding: 10px 10px;
+    background-color: #ddd;
+    border-radius: 20px;
+    font-size: 16px;
+    color: black;
+  }
+  .skills-list :hover {
+    background-color: rgb(122, 122, 225);
+    cursor: pointer;
+    border: white;
+    color: white;
+  }
+
+ 
+  .skills-list li:first-child {
+    margin-left: 0;
+  }
+  
+  .skills-list li:last-child {
+    margin-right: 0;
+  }
+  
+  #about {
+    background-color: rgb(0, 0, 46);
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(0, 0, 46);
+    color: white;
+  }
+  
+  #about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: rgb(38, 223, 230);
+  }
+  
+  #about p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  #about p span {
+    font-weight: bold;
+    color: #e8eef5; /* Or any color you prefer */
+  }
+  
+  
